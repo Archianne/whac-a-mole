@@ -53,21 +53,21 @@ body {
 
 .mole {
   background-image: url("img/mole.gif");
-  background-size: cover;  
+  background-size: cover;
 }
 
 #grid {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .reset-button {
-    width: 70px;
-    height: 30px;
-    align-self: center;
-    background-color: var(--accent2);
-    color: var(--accent3);
-    border: none;
-    border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  align-self: center;
+  background-color: var(--accent2);
+  color: var(--accent3);
+  border: none;
+  border-radius: 10px;
 }
 
 h1 {

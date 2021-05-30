@@ -1,23 +1,20 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .box {
-    width: 100vw;
-    height: 100vh;
-    border-radius: 0;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0;
 }
 
 .grid {
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
 }
 
 .square {
-    width: 80px;
-    height: 80px;
-}
-
-.mole {
+  width: 80px;
+  height: 80px;
 }
