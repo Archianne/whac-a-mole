@@ -37,22 +37,27 @@ body {
 
 .grid {
   width: 500px;
+  height: 400px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .square {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   border: solid var(--accent2) 1px;
   border-radius: 10px;
   margin: 1px;
 }
 
 .mole {
-  background-image: url("img/mole.png");
+  background-image: url("img/mole.gif");
   background-size: cover;  
+}
+
+.final {
+    align-self: center;
 }
 
 h1 {
