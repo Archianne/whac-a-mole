@@ -56,14 +56,26 @@ body {
   background-size: cover;  
 }
 
-.final {
+#grid {
+    flex-direction: column;
+}
+
+.reset-button {
+    width: 70px;
+    height: 30px;
     align-self: center;
+    background-color: var(--accent2);
+    color: var(--accent3);
+    border: none;
+    border-radius: 10px;
 }
 
 h1 {
   font: var(--title-font);
   color: var(--accent2);
+  margin-top: 50px;
 }
+
 h2 {
   font: var(--text-font);
 }

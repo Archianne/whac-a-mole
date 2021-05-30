@@ -43,7 +43,9 @@ function countDown() {
   if (currentTime == 0) {
     clearInterval(countDownTimerId);
     clearInterval(timerId);
-    grid.innerHTML = `<p class="final">GAME OVER! Your final score is ${result}</p>`
+    grid.setAttribute("id", "grid");
+    grid.innerHTML = `<p class="final">GAME OVER! Your final score is ${result}</p>
+    <button class="reset-button" onclick="location.reload()">Reset</button>`;
   }
 }
 
