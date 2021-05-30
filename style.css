@@ -1,17 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+:root {
+  --accent1: #f89e9d;
+  --accent2: #6490d2;
+  --accent3: #f8f4eb;
+
+  --text-font: 12px "Poppins";
+  --title-font: 2em "Lobster";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f89e9d;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: 5% auto;
+  display: flex;
+  justify-content: center;
+  align-content: baseline;
+}
+
+.box {
+  width: 500px;
+  height: 650px;
+  background-color: var(--accent3);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
 .grid {
-	width: 606px;
-	height: 606px;
-	display: flex;
-	flex-wrap: wrap;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .square {
-	height: 200px;
-	width: 200px;
-	border: solid black 1px;
+  height: 150px;
+  width: 150px;
+  border: solid black 1px;
 }
 
 .mole {
-	background-image: url("img/mole.png");
-	background-size: cover;
+  background-image: url("img/mole.png");
+  background-size: cover;
+}
+
+h1 {
+  font: var(--title-font);
+  color: var(--accent2);
+}
+h2 {
+  font: var(--text-font);
 }
