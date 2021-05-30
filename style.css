@@ -18,10 +18,14 @@ body {
   background-color: #f89e9d;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  margin: 5% auto;
+}
+
+.container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-content: baseline;
+  align-items: center;
+  height: 100vh;
 }
 
 .box {
@@ -49,11 +53,13 @@ body {
   border: solid var(--accent2) 1px;
   border-radius: 10px;
   margin: 1px;
+  background-color: white;
 }
 
 .mole {
-  background-image: url("img/mole.gif");
+  background-image: url("img/mole.png");
   background-size: cover;
+  background-color: var(--accent1);
 }
 
 #grid {

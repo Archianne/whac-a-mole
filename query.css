@@ -4,7 +4,7 @@ body {
 
 .box {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   border-radius: 0;
 }
 
@@ -12,6 +12,7 @@ body {
   width: 100%;
   height: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .square {
