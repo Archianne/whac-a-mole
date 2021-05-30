@@ -45,12 +45,14 @@ body {
 .square {
   height: 150px;
   width: 150px;
-  border: solid black 1px;
+  border: solid var(--accent2) 1px;
+  border-radius: 10px;
+  margin: 1px;
 }
 
 .mole {
   background-image: url("img/mole.png");
-  background-size: cover;
+  background-size: cover;  
 }
 
 h1 {
