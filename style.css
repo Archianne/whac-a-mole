@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 :root {
-  --accent1: #f89e9d;
+  --accent1: #FF6347;
   --accent2: #6490d2;
   --accent3: #f8f4eb;
 
@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: #f89e9d;
+  background-color: var(--accent1);
   font-family: "Poppins", sans-serif;
   font-size: 20px;
 }
@@ -51,7 +51,7 @@ body {
   height: 100px;
   width: 100px;
   border: solid var(--accent2) 1px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 1px;
   background-color: white;
 }
