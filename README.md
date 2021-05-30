@@ -14,7 +14,7 @@ Simple game, made with HTML, CSS and Vanilla JavaScript.
 
 |[Play Game](https://archianne.github.io/whac-a-mole/)  |
 |--|
-| ![game]() |
+| ![game](https://github.com/Archianne/whac-a-mole/blob/main/img/game.png?raw=true) |
 
 ### How to Play
 - Try to whac the mole as many times as you can within 30 seconds
