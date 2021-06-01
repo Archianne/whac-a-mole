@@ -22,4 +22,7 @@ Simple game, made with HTML, CSS and Vanilla JavaScript.
 ### Clone
     https://github.com/Archianne/whac-a-mole.git
 
+### Resources
+[Building 7 Games - Full Course - Ania Kubow](https://www.youtube.com/watch?v=lhNdUVh3qCc&list=PLCr7hpNyQaE70_m2tSCxNU1FOqsPUUExh&index=3)
+
 ![](https://komarev.com/ghpvc/?username=Archianne&color=gray&label=Views)
